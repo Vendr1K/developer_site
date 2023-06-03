@@ -81,7 +81,7 @@ a {
   font-family: Lato;
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/Lato-Regular.woff) format("woff");
+  src: url(./fonts/Lato-Regular.woff) format("woff");
 }
 
 @font-face {
@@ -89,7 +89,7 @@ a {
   font-family: Lato;
   font-style: normal;
   font-weight: 500;
-  src: url(/fonts/Lato-Medium.woff) format("woff");
+  src: url(./fonts/Lato-Medium.woff) format("woff");
 }
 
 @font-face {
@@ -97,7 +97,7 @@ a {
   font-family: Lato;
   font-style: normal;
   font-weight: 700;
-  src: url(/fonts/Lato-Bold.woff) format("woff");
+  src: url(./fonts/Lato-Bold.woff) format("woff");
 }
 
 @font-face {
@@ -105,7 +105,7 @@ a {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
-  src: url(/fonts/Raleway-Bold.woff) format("woff");
+  src: url(./fonts/Raleway-Bold.woff) format("woff");
 }
 
 @font-face {
@@ -113,7 +113,7 @@ a {
   font-family: Raleway;
   font-style: normal;
   font-weight: 600;
-  src: url(/fonts/Raleway-SemiBold.woff) format("woff");
+  src: url(./fonts/Raleway-SemiBold.woff) format("woff");
 }
 
 @font-face {
@@ -121,7 +121,7 @@ a {
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/Raleway-Regular.woff) format("woff");
+  src: url(./fonts/Raleway-Regular.woff) format("woff");
 }
 
 @font-face {
@@ -129,7 +129,7 @@ a {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/Montserrat-Regular.woff) format("woff");
+  src: url(./fonts/Montserrat-Regular.woff) format("woff");
 }
 
 @media (prefers-color-scheme: dark) {

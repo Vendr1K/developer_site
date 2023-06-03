@@ -140,6 +140,7 @@
         }
 
         &__input + &__span::before {
+            // position: relative;
             content: '';
             display: inline-block;
             margin-right: 5px;
@@ -150,8 +151,13 @@
         }
 
         &__input:checked + &__span::before {
-            // background-color: #5cb2c8;
-            background-image: url('/img/checkbox.png');
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            content: '\2713';
+            background-color: #5cb2c8;
+            // background-image: url('../img/checkbox.png');
             background-repeat: no-repeat;
             background-position: center center;
             background-size: contain;

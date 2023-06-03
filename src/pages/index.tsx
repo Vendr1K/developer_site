@@ -17,7 +17,7 @@ export default function Home() {
       <meta  charSet='UTF-8'/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-      <link rel="icon" type='image/svg' sizes='32*32' href="/img/logo.svg" />
+      <link rel="icon" type='./image/svg' sizes='32*32' href="/" />
     </Head>
    
       {/* <Header/> */}

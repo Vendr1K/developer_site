@@ -9,7 +9,7 @@ export function SocialList() {
                     <span className={styles.social__list__item__link__text}>Facebook</span>
                     <span className={`${styles.social__list__item__link__icon} ${styles.social__list__item__link__icon__fb}`}>
                         <Image 
-                            src="/img/facebook.svg"
+                            src="./img/facebook.svg"
                             width={15}
                             height={30}
                             alt="facebook"
@@ -23,7 +23,7 @@ export function SocialList() {
                     <span className={styles.social__list__item__link__text}>VKontakte</span>
                     <span className={`${styles.social__list__item__link__icon} ${styles.social__list__item__link__icon__vk}`}>
                         <Image 
-                            src="/img/vk.svg"
+                            src="./img/vk.svg"
                             width={23}
                             height={14}
                             alt="vkontakte"
@@ -37,7 +37,7 @@ export function SocialList() {
                     <span className={styles.social__list__item__link__text}>YouTube</span>
                     <span className={`${styles.social__list__item__link__icon} ${styles.social__list__item__link__icon__yt}`}>
                         <Image 
-                            src="/img/youtube.svg"
+                            src="./img/youtube.svg"
                             width={22}
                             height={16}
                             alt="youtube"

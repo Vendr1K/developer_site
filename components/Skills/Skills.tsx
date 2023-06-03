@@ -17,7 +17,7 @@ export function Skills() {
                            <div className={styles.skills__list__item__title}>
                             <div className={styles.skills__list__item__title__wrapper}>
                                 <span className={styles.skills__list__item__title__wrapper__icon}>
-                                    {/* <WebIcon/> */}
+                                    <WebIcon/>
                                 </span>
                                 <h3 className={styles.skills__list__item__title__wrapper__text}>Веб-Разработка</h3>
                             </div>
@@ -32,7 +32,7 @@ export function Skills() {
                            <div className={styles.skills__list__item__title}>
                             <div className={styles.skills__list__item__title__wrapper}>
                                 <span className={styles.skills__list__item__title__wrapper__icon}>
-                                    {/* <UiUxIcon/> */}
+                                    <UiUxIcon/>
                                 </span>
                                 <h3 className={styles.skills__list__item__title__wrapper__text}>UI/UX Дизайн</h3>
                             </div>

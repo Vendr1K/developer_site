@@ -7,30 +7,30 @@ import styles from './tabs.module.scss'
 
 
 const tabsContent1 = [
-    {id: 1, title: 'Веб-сайты', img: '/img/portfolio-img-1.png'},
-    {id: 2, title: 'Веб-сайты', img: '/img/portfolio-img-2.png'},
-    {id: 3, title: 'Веб-сайты', img: '/img/portfolio-img-3.png'},
-    {id: 4, title: 'Веб-сайты', img: '/img/portfolio-img-2.png'},
+    {id: 1, title: 'Веб-сайты', img: './img/portfolio-img-1.png'},
+    {id: 2, title: 'Веб-сайты', img: './img/portfolio-img-2.png'},
+    {id: 3, title: 'Веб-сайты', img: './img/portfolio-img-3.png'},
+    {id: 4, title: 'Веб-сайты', img: './img/portfolio-img-2.png'},
 ]
 
 const tabsContent2 = [
-    {id: 1, title: 'UI/UX дизайн', img: '/img/portfolio-img-3.png'},
-    {id: 2, title: 'UI/UX дизайн', img: '/img/portfolio-img-2.png'},
-    {id: 3, title: 'UI/UX дизайн', img: '/img/portfolio-img-3.png'},
-    {id: 4, title: 'UI/UX дизайн', img: '/img/portfolio-img-1.png'},
+    {id: 1, title: 'UI/UX дизайн', img: './img/portfolio-img-3.png'},
+    {id: 2, title: 'UI/UX дизайн', img: './img/portfolio-img-2.png'},
+    {id: 3, title: 'UI/UX дизайн', img: './img/portfolio-img-3.png'},
+    {id: 4, title: 'UI/UX дизайн', img: './img/portfolio-img-1.png'},
 ]
 
 const tabsContent3 = [
-    {id: 1, title: 'Внешний интерфейс', img: '/img/portfolio-img-3.png'},
-    {id: 2, title: 'Внешний интерфейс', img: '/img/portfolio-img-3.png'},
-    {id: 3, title: 'Внешний интерфейс', img: '/img/portfolio-img-1.png'},
-    {id: 4, title: 'Внешний интерфейс', img: '/img/portfolio-img-1.png'},
+    {id: 1, title: 'Внешний интерфейс', img: './img/portfolio-img-3.png'},
+    {id: 2, title: 'Внешний интерфейс', img: './img/portfolio-img-3.png'},
+    {id: 3, title: 'Внешний интерфейс', img: './img/portfolio-img-1.png'},
+    {id: 4, title: 'Внешний интерфейс', img: './img/portfolio-img-1.png'},
    
 ]
 const tabsContent4 = [
-    {id: 1, title: 'Все проекты', img: '/img/portfolio-img-2.png'},
-    {id: 2, title: 'Все проекты', img: '/img/portfolio-img-2.png'},
-    {id: 3, title: 'Все проекты', img: '/img/portfolio-img-2.png'},
+    {id: 1, title: 'Все проекты', img: './img/portfolio-img-2.png'},
+    {id: 2, title: 'Все проекты', img: './img/portfolio-img-2.png'},
+    {id: 3, title: 'Все проекты', img: './img/portfolio-img-2.png'},
     
    
 ]

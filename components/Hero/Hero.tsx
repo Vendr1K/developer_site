@@ -43,7 +43,7 @@ export function Hero () {
     },[])
 
     return( 
-        <section className={styles.hero} style={{backgroundImage: isMobile485 ? '' : `url('../../public/img/hero-bg${isMobile800 ? '-mobile' : ''}.png')` }}>
+        <section className={styles.hero} style={{backgroundImage: isMobile485 ? '' : `url('./img/hero-bg${isMobile800 ? '-mobile' : ''}.png')` }}>
             <div className='sub-container'>
             <div className={styles.hero__inner}>
                 <h1 className={styles.hero__title} ref={heroTitle}>Web development</h1>

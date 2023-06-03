@@ -22,7 +22,7 @@ export function About() {
             
             <div className={`sub-container ${styles.about__sub_container}`}>   
                 <div className={styles.about__sub_container__avatar}>
-                    <img className={styles.about__img} src="/img/about.png" alt="avatar" />
+                    <img className={styles.about__img} src="./img/about.png" alt="avatar" />
                 </div>
                 <div className={styles.about__inner}>
                     <div className={styles.about__inner__title}>

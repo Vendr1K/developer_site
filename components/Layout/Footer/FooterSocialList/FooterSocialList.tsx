@@ -8,7 +8,7 @@ export function FooterSocialList({ marginBottom }: { marginBottom?: number }) {
             <a href="#" className={styles.social__list__item__link}>
                 <span className={styles.social__list__item__link__text}>facebook</span>
                 <span className={`${styles.social__list__item__link__icon} ${styles.social__list__item__link__icon__fb}`}>
-                    <img className={styles.social__list__item__link__img} src="/img/facebook.svg" alt="facebook" />
+                    <img className={styles.social__list__item__link__img} src="./img/facebook.svg" alt="facebook" />
                 </span>
             </a>
         </li>
@@ -16,7 +16,7 @@ export function FooterSocialList({ marginBottom }: { marginBottom?: number }) {
             <a href="#" className={styles.social__list__item__link}>
                 <span className={styles.social__list__item__link__text}>ВКонтакте</span>
                 <span className={`${styles.social__list__item__link__icon} ${styles.social__list__item__link__icon__vk}`}>
-                    <img className={styles.social__list__item__link__img} src="/img/vk.svg" alt="ВКонтакте" />
+                    <img className={styles.social__list__item__link__img} src="./img/vk.svg" alt="ВКонтакте" />
                 </span>
             </a>
         </li>
@@ -24,7 +24,7 @@ export function FooterSocialList({ marginBottom }: { marginBottom?: number }) {
             <a href="#" className={styles.social__list__item__link}>
                 <span className={styles.social__list__item__link__text}>YouTube</span>
                 <span className={`${styles.social__list__item__link__icon} ${styles.social__list__item__link__icon__yt}`}>
-                    <img className={styles.social__list__item__link__img} src="/img/youtube.svg" alt="YouTube" />
+                    <img className={styles.social__list__item__link__img} src="./img/youtube.svg" alt="YouTube" />
                 </span>
             </a>
         </li>

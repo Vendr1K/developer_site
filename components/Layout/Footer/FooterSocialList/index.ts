@@ -1,1 +1,1 @@
-import * from './FooterSocialList'
+export * from './FooterSocialList'

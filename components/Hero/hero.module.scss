@@ -1,0 +1,179 @@
+.hero{ 
+    position: relative;
+    min-height: 800px;
+    padding-top: 135px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 140px;
+    
+
+    @media all and (max-width: 1080px) {
+        margin-bottom: 120px;
+    }
+
+    @media all and (max-width: 800px) {
+        padding-top: 106px;
+        min-height: 520px;
+        margin-bottom: 96px;
+    }
+
+    @media all and (max-width: 630px) {
+        margin-bottom: 56px;
+    }
+
+    @media all and (max-width: 485px) {
+        min-height: auto;
+        padding-top: 107px;
+    }
+
+    &__title {
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 101px;
+        margin-bottom: 89px;
+        --hue: 0;
+        -webkit-text-fill-color: transparent; 
+        -webkit-text-stroke-width: 4px;
+        -webkit-text-stroke-color: hsl(var(--hue), 50%, 95%);
+        text-shadow:
+          0 0 15px hsl(var(--hue), 60%, 90%, .80),
+          0 0 20px hsl(var(--hue), 70%, 80%, .85),
+          0 0 40px hsl(var(--hue), 80%, 70%, .90),
+          0 0 60px hsl(var(--hue), 90%, 60%, .95),
+          0 0 80px hsl(var(--hue), 100%, 50%, 1);
+
+        @media all and (max-width: 1440px) {
+            margin-bottom: 110px;
+        }
+
+        @media all and (max-width: 1080px) {
+            font-size: 72px;
+            margin-bottom: 88px;
+        }
+
+        @media all and (max-width: 800px) {
+            font-size: 52px;
+            margin-bottom: 57px;
+        }
+
+        @media all and (max-width: 485px) {
+            font-size: 42px;
+        }
+    }
+
+
+    &__descr p {
+        
+        max-width: 485px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 30px;
+        color: var(--white-text);
+
+        &:nth-child(2) {
+            margin-bottom: 84px;
+        }
+
+        @media all and (max-width: 1080px) {
+            font-size: 20px;
+            max-width: 395px;
+        }
+
+        @media all and (max-width: 800px) {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26px;
+            max-width: 355px;
+        }
+
+        @media all and (max-width: 485px) {
+            font-size: 16px;
+            line-height: 21px;
+        }
+
+        &:nth-child(2) {
+            margin-bottom: 84px;
+
+            @media all and (max-width: 1440px) {
+                margin-bottom: 82px;
+            }
+
+            @media all and (max-width: 1080px) {
+                margin-bottom: 65px;
+            }
+
+            @media all and (max-width: 800px) {
+                margin-bottom: 41px;
+            }
+        }
+    }
+
+    &__btn {
+        border-radius: 4px;
+        background:  var(--btn-radial-gradient);
+        padding: 16px 32px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 28px;
+        cursor: pointer;
+
+        &:hover {
+            background: var(--btn-radial-gradient-hover);
+        }
+
+        @media all and (max-width: 1440px) {
+            padding: 25px 49px;
+        }
+
+        @media all and (max-width: 1080px) {
+            padding: 25px 37px;
+        }
+
+        
+        @media all and (max-width: 800px) {
+            font-size: 18px;
+            padding: 12px 33px;
+        }
+
+        @media all and (max-width: 485px) {
+            font-size: 16px;
+            padding: 12px 37px;
+        }
+    }
+
+    &__arrow{
+        position: absolute;
+        bottom: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 75px;
+        height: 66px;
+        cursor: pointer;
+        // background-image: url('/img/hero-arrow.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        &__svg path {
+            // &__hover_path {
+                fill: none;
+            // }
+        }
+
+        &__svg:hover path {
+                fill: rgba(56, 34, 78, 0.413);
+        }
+
+    
+
+        @media all and (max-width: 1080px) {
+            bottom: 66px;
+        }
+    }
+}
